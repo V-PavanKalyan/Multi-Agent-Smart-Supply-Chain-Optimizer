@@ -36,9 +36,9 @@ logger = logging.getLogger(__name__) # Get a logger instance for the current mod
 print("✅ All packages installed successfully!") # Print a message indicating that all packages have been installed successfully
 
 # For dynamic mode (with live APIs)
-GEMINI_API_KEY = "AIzaSyD4bxgGDO04NvaxDnwdcDj77v9l_2iLUEE"
-OPENROUTESERVICE_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6ImM2NThkN2FhYzE0MjQ0OTk5NmVhMDAzYjc2ZjIwNDg5IiwiaCI6Im11cm11cjY0In0="
-OPENWEATHERMAP_API_KEY = "bfd24ad836ede5acb0f61386aa189ef2"
+GEMINI_API_KEY = "Your_GEMINI_API_KEY"
+OPENROUTESERVICE_API_KEY = "your_OPENROUTESERVICE_API_KEY "
+OPENWEATHERMAP_API_KEY = "Your_OPENWEATHERMAP_API_KEY"
 
 STATIC_MODE = not (GEMINI_API_KEY and OPENROUTESERVICE_API_KEY and OPENWEATHERMAP_API_KEY) # Determine the operating mode (STATIC or DYNAMIC) based on whether API keys are available
 
